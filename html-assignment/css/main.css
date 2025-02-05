@@ -1,0 +1,29 @@
+/* to do lists:
+(done) 1. inheritance: target body tag to change font fam and increase font size to 18px
+(done) 2. select multi elements: select header and footer elements and add same bg colour
+(done) 3. class: add class 'site-title' to main heading and change text color in heading
+(done) 4. id: add id 'my-image' to image and add box shadow w/ 0 horizontal and vertical placement, 2px blur, 1px spread, and black colour
+(done) 5. replace bullets in hobbies w/ squares
+6. nth child: add bg to odd lists items in hobby list
+7. style navi:
+- remove bullets from unordered list in navi
+- remove underline from links
+- add bg and border to links
+- change bg colour on hover or focus state of links (?)
+*/
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: rgb(216, 165, 149);
+}
+.site-title{
+    color: rgb(106, 35, 43);
+}
+#my-image{
+    box-shadow:0px 0px 2px 1px #000;
+}
+main section ul{
+    list-style-type: square;
+}
