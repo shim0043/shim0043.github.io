@@ -30,7 +30,7 @@ main section ul{
 section li:nth-child(odd){
     background: rgb(239, 226, 205);
 }
-nav ul{
+nav li{
     list-style-type: none;
     background: rgb(239, 226, 205);
     border:1px solid rgb(75, 26, 101);
