@@ -1,0 +1,56 @@
+/* tasks:
+1.  header: use image tag to add the image and position of the site title on top
+    - style: position property used to overlay text on top of the image
+2. article: image w/ text wrapping around it
+3. facts: use proper syntax for listing facts
+4. form - all the inputs must be linked to the relative labels
+5. html and css should be validated and contain comments
+*/
+
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+.wrapper{
+    padding-top: 50px;
+    background-color: rgb(220, 220, 220);
+    width: 500px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+form{
+    border:1px solid black;
+    padding-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.input{
+    width: 450px;
+}
+
+footer{
+    text-align: right;
+    padding-bottom: 10px;
+}
