@@ -1,10 +1,8 @@
 /* tasks:
 1.  header: use image tag to add the image and position of the site title on top
     - style: position property used to overlay text on top of the image
-2. article: image w/ text wrapping around it
-(done) 3. facts: use proper syntax for listing facts
-(done) 4. form - all the inputs must be linked to the relative labels
-5. html and css should contain comments
+2. html and css should contain comments
+3. organize class elements
 */
 
 body{
@@ -12,7 +10,6 @@ body{
 }
 
 .wrapper{
-    padding-top: 50px;
     background-color: rgb(220, 220, 220);
     width: 600px;
     margin: auto;
@@ -20,55 +17,65 @@ body{
     font-size: small;
 }
 
-h1{
-    color: white;
-    z-index: 1;
-    text-align: center;
+header img{
+    background-image: url(images/moon.jpg);
+    position: fixed;
 }
 
-.header{
-    background-image: url(images/moon.jpg);
+h1{
+    color: white;
+    position: fixed;
 }
 
 nav{
     position: fixed;
-    z-index: 1;
-    top: 100px;
-    text-align: center;
+    background-color: rgb(220, 220, 220);
+    margin-top: 170px;
 }
 
 nav li{
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 68px;
 }
 
 a:link{
     text-decoration: none;
+    color: black;
+}
+
+main{
+    margin:10px;
+    padding-top: 200px;
+}
+
+article img{
+    float:left;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.facts{
+    clear:left;
 }
 
 form{
     border:1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 10px;
+    padding: 10px 0;
+    padding-right: 10px;
 }
 
 form div{
     margin: 10px;
 }
 
-button{
-    margin-top: 10px;
-}
-
-.input{
-    width: 450px;
+#fullname, #email, #message{
+    width:100%;
 }
 
 footer{
     text-align: right;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .newpagetext{
@@ -76,5 +83,5 @@ footer{
     text-align: center;
     font-size: larger;
     padding-top: 250px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
