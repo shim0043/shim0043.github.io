@@ -1,7 +1,7 @@
+/* general */
 body{
     background-color: rgb(180, 180, 180);
 }
-
 .wrapper{
     background-color: rgb(220, 220, 220);
     width: 600px;
@@ -9,15 +9,14 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
 }
-
 main{
     margin: 10px;
-    padding-top: 210px;
+    padding-top: 210px; /* remove for no fixed header */
 }
 
 /* header stuff */
 header{
-    position: fixed;
+    position: fixed; /* remove for no fixed header */
 }
 .header-info{
     position: relative;
@@ -110,7 +109,7 @@ footer{
     padding-right: 30px;
 }
 
-/* form input/label */
+/* new page of form link */
 .newpagetext{ 
     text-align: center;
     font-size: larger;
