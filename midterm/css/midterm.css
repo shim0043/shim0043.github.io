@@ -16,7 +16,7 @@ body{
 }
 
 main{
-    margin:10px;
+    margin: 10px;
     padding-top: 200px;
 }
 
@@ -59,9 +59,12 @@ article img{
     width: 150px;
     margin-right: 10px;
 }
-.facts li{
+.facts{
     clear:left;
-    
+}
+.facts ul{
+    padding: 0;
+    margin-left: 10px;
 }
 
 /* form */
