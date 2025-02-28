@@ -60,7 +60,7 @@ article img{
     margin-right: 10px;
 }
 .facts{
-    clear:left;
+    clear: left;
 }
 .facts ul{
     padding: 0;
@@ -78,6 +78,8 @@ form div{
 }
 #fullname, #email, #message{
     width:100%;
+    border: none;
+    border: 1px solid rgb(180, 180, 180);
 }
 button{
     font-size: xx-small;
