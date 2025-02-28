@@ -54,7 +54,7 @@ a:link{
 }
 
 /* story */
-article img{
+.story-text img{
     float:left;
     width: 150px;
     margin-right: 10px;
@@ -68,12 +68,12 @@ article img{
 }
 
 /* form */
-form{
+.contact-form{
     border:1px solid black;
     padding: 10px 0;
     padding-right: 10px;
 }
-form div{
+.contact-form div{
     margin: 10px;
 }
 #fullname, #email, #message{
@@ -81,7 +81,7 @@ form div{
     border: none;
     border: 1px solid rgb(180, 180, 180);
 }
-button{
+.contact-button{
     font-size: xx-small;
     padding: 10px;
     background-color: rgb(220, 220, 220);
