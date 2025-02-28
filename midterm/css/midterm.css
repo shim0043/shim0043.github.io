@@ -1,8 +1,6 @@
 /* tasks:
-1.  header: use image tag to add the image and position of the site title on top
-    - style: position property used to overlay text on top of the image
-2. html and css should contain comments
-3. organize class elements
+1. html and css should contain comments
+2. organize class elements
 */
 
 body{
@@ -17,59 +15,73 @@ body{
     font-size: small;
 }
 
-header img{
-    background-image: url(images/moon.jpg);
-    position: fixed;
-}
-
-h1{
-    color: white;
-    position: fixed;
-}
-
-nav{
-    position: fixed;
-    background-color: rgb(220, 220, 220);
-    margin-top: 170px;
-}
-
-nav li{
-    display: inline-block;
-    margin: 0 68px;
-}
-
-a:link{
-    text-decoration: none;
-    color: black;
-}
-
 main{
     margin:10px;
     padding-top: 200px;
 }
 
+/* header stuff */
+header{
+    position: fixed;
+}
+
+.header-info{
+    position: relative;
+}
+.header-info img{
+    width: 600px;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 33%;
+    left:38%;
+}
+
+/* nav stuff */
+nav{
+    position: absolute;
+    background-color: rgb(220, 220, 220);
+    top: 85%;
+}
+nav li{
+    display: inline-block;
+    margin: 0 68px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+/* story */
 article img{
     float:left;
     width: 150px;
     margin-right: 10px;
 }
-
-.facts{
+.facts li{
     clear:left;
+    
 }
 
+/* form */
 form{
     border:1px solid black;
     padding: 10px 0;
     padding-right: 10px;
 }
-
 form div{
     margin: 10px;
 }
-
 #fullname, #email, #message{
     width:100%;
+}
+button{
+    font-size: xx-small;
+    padding: 10px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border: 1px solid black;
 }
 
 footer{
@@ -82,6 +94,6 @@ footer{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: larger;
-    padding-top: 250px;
+    padding-top: 300px;
     padding-bottom: 100px;
 }
