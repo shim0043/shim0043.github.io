@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shim0043 final</title>
     <link href="css/final.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21478e2192.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- nav with 5 lists -->
@@ -17,7 +18,7 @@
             <li>Contact</li>
             <li>
                 <input type="search" id="web-search" name="search"/>
-                <button></button>
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </li>
         </ul>
     </nav>
@@ -26,7 +27,7 @@
         <div class="welcome">
             <h1>Welcome tp Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis adipisci laborum nihil ipsum magnam similique! In ea illo quis soluta voluptatem quibusdam quasi laudantium ad, perferendis omnis! Optio, maxime.</p>
-            <button type="submit">Connect with us</button>
+            <button type="submit">Connect with us <i class="fa-solid fa-caret-right"></i></button>
         </div>
     </header>
     <!-- section 1 with yellow wrapper -->
@@ -44,27 +45,27 @@
             <div class="digital-transformation">
                 <h2>Digital Transformation</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Digital Plans</button>
+                <button button="submit">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
             <div class="marketing">
                 <h2>Marketing</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Marketing Plans</button>
+                <button button="submit">Marketing Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
             <div class="vid-production">
                 <h2>Video Production</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Video Plans</button>
+                <button button="submit">Video Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
             <div class="web-dev">
                 <h2>Web Development</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Web Plans</button>
+                <button button="submit">Web Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
             <div class="print">
                 <h2>Print</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Print Plans</button>
+                <button button="submit">Print Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
         </div>
     </section>
@@ -78,9 +79,10 @@
     </section>
     <!-- section 4 with 4 div classes for flex -->
     <section>
+        <h1>Our Team</h1>
         <div class="wrapper our-team">
             <div class="john-doe img">
-                <img src="" alt="Portrait of John Doe">
+                <img src="images/john.jpg" alt="Portrait of John Doe">
             </div>
             <div class="john-doe">
                 <h2>John Doe</h2>
@@ -93,18 +95,54 @@
                 <p>Quas neque voluptatem eos itaque voluptas molestias, incidunt reiciendis. Nobis quod laboriosam optio, corporis ex nisi dolore ipsum cumque, adipisci accusantium beatae, sequi eaque nam unde magni iusto itaque ad?</p>
             </div>
             <div class="bob-rite img">
-                <img src="" alt="Portrait of Bob Rite">
+                <img src="images/bob.jpg" alt="Portrait of Bob Rite">
             </div>
         </div>
     </section>
     <!-- section 5 with form and maps -->
     <section class="contact-us">
+        <h1>Contact Us</h1>
         <h2>Send us a message</h2>
-            <div>
-            </div>
+            <form class="contact-form" action="moon.html" method="get">
+                <div>
+                    <label for="fullname">Full Name</label><br>
+                    <input id="fullname" name="fullname" type="text" class="input">
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input id="email" name="email" type="email" class="input">
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" class="input"></textarea>
+                </div>
+                <div>
+                    <button class="contact-button" type="submit">SEND</button>
+                </div>
+            </form>
         <h2>Location</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22431.59047663757!2d-75.77287673950195!3d45.34984560197596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743115982725!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h2>Hours of operation</h2>
+        <div class="table-content">
+            <table>
+                <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     <!-- footer with copyright information on yellow font with black background color -->
     <footer>
