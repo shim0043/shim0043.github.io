@@ -27,7 +27,9 @@
         <div class="welcome">
             <h1>Welcome tp Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis adipisci laborum nihil ipsum magnam similique! In ea illo quis soluta voluptatem quibusdam quasi laudantium ad, perferendis omnis! Optio, maxime.</p>
-            <button type="submit">Connect with us <i class="fa-solid fa-caret-right"></i></button>
+            <div class="button header-button">
+                <button type="submit">Connect with us <i class="fa-solid fa-caret-right"></i></button>
+            </div>
         </div>
     </header>
     <!-- section 1 with yellow wrapper -->
@@ -38,34 +40,44 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam placeat ab enim. Ut, dolor! Ex voluptas esse, praesentium quae, nostrum asperiores, ad ducimus iusto voluptatem fugiat natus ipsum? Excepturi.</p>
         </div>
     </section>
-    <!-- section 2 containing 5 div classes -->
+    <!-- section 2 containing 5 div classes; use grid-->
     <section>
         <div class="wrapper our-services">
             <h1>Our Services</h1>
             <div class="digital-transformation">
                 <h2>Digital Transformation</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
+                <div class="button digital-plans">
+                    <button button="submit">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
             </div>
             <div class="marketing">
                 <h2>Marketing</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Marketing Plans <i class="fa-solid fa-caret-right"></i></button>
+                <div class="button marketing-plans">
+                    <button button="submit">Marketing Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
             </div>
             <div class="vid-production">
                 <h2>Video Production</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Video Plans <i class="fa-solid fa-caret-right"></i></button>
+                <div class="button vid-plans">
+                    <button button="submit">Video Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
             </div>
             <div class="web-dev">
                 <h2>Web Development</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Web Plans <i class="fa-solid fa-caret-right"></i></button>
+                <div class="button web-plans">
+                    <button button="submit">Web Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
             </div>
             <div class="print">
                 <h2>Print</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-                <button button="submit">Print Plans <i class="fa-solid fa-caret-right"></i></button>
+                <div class="button print-plans">
+                    <button button="submit">Print Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
             </div>
         </div>
     </section>
@@ -74,10 +86,12 @@
         <div class="wrapper our-vision">
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur facere cupiditate iste, tempora odio quos. Eaque perspiciatis cumque ducimus porro? Saepe animi reiciendis consectetur quo minima, in odio exercitationem!</p>
-            <button button="submit">Learn More</button>
+            <div class="our-vision-button">
+                <button button="submit">Learn More <i class="fa-solid fa-caret-right"></i></button>
+            </div>
         </div>
     </section>
-    <!-- section 4 with 4 div classes for flex -->
+    <!-- section 4 with 4 div classes; use flex -->
     <section>
         <h1>Our Team</h1>
         <div class="wrapper our-team">
@@ -99,7 +113,7 @@
             </div>
         </div>
     </section>
-    <!-- section 5 with form and maps -->
+    <!-- section 5 with forms, embedded maps, and table; use flex -->
     <section class="contact-us">
         <h1>Contact Us</h1>
         <h2>Send us a message</h2>
@@ -116,8 +130,8 @@
                     <label for="message">Message</label><br>
                     <textarea id="message" class="input"></textarea>
                 </div>
-                <div>
-                    <button class="contact-button" type="submit">SEND</button>
+                <div class="contact-button">
+                    <button type="submit">Send</button>
                 </div>
             </form>
         <h2>Location</h2>
