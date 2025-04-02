@@ -6,6 +6,9 @@
     <title>shim0043 final</title>
     <link href="css/final.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/21478e2192.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- full bacground img and text overlay with transparent background color -->
@@ -14,11 +17,11 @@
         <!-- nav with 6 lists -->
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Team</li>
-                <li>Contact</li>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#our-services">Services</a></li>
+                <li><a href="#our-team">Team</a></li>
+                <li><a href="#contact-us">Contact</a></li>
                 <li>
                     <input>
                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -36,14 +39,14 @@
     </header>
     <main>
         <!-- section 1 with yellow wrapper -->
-        <section class="wrapper about-us">
+        <section class="wrapper about-us" id="about-us">
             <img src="images/about-us.jpg" alt="Picture of lounge space with ping pong table">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ipsa qui? Delectus libero omnis itaque velit, possimus dolor vel nulla unde ullam saepe labore beatae eaque necessitatibus fugit pariatur odit?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam placeat ab enim. Ut, dolor! Ex voluptas esse, praesentium quae, nostrum asperiores, ad ducimus iusto voluptatem fugiat natus ipsum? Excepturi.</p>
         </section>
         <!-- section 2 containing 5 div classes; use grid-->
-        <section class="wrapper our-services">
+        <section class="wrapper our-services" id="our-services">
             <h2>Our Services</h2>
             <div class="digital-transformation">
                 <img src="images/digital.jpg" alt="Person using both computer and phone">
@@ -96,7 +99,7 @@
             </div>
         </section>
         <!-- section 4 with 4 div classes; use flex -->
-        <section class="wrapper our-team">
+        <section class="wrapper our-team" id="our-team">
             <h2>Our Team</h2>
             <div class="john-doe">
                 <img src="images/john.jpg" alt="Portrait of John Doe">
@@ -112,7 +115,7 @@
             </div>
         </section>
         <!-- section 5 with forms, embedded maps, and table; use flex -->
-        <section class="contact-us">
+        <section class="contact-us" id="contact-us">
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
                 <form class="contact-form">
