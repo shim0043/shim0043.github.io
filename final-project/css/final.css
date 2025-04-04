@@ -61,7 +61,7 @@ h1, h2, h3{
 }
 .wrapper{
     background-color: #ffe6ac;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 section div, footer, main h2{
     margin: 1rem;
@@ -77,14 +77,11 @@ section div, footer, main h2{
 .header-button, .button{
     font-size: 1.25rem;
     padding-left: 2rem;
-    margin: 0.75rem;
+    margin-top: 1rem;
 }
 .button{
     color: white;
     background-color: #222;
-}
-.header-button{
-    margin-left: 0;
 }
 
 /* header stuff */
@@ -100,7 +97,7 @@ img{
     position: absolute;
     transform: translate(0, -115%);
     padding: 3rem 1rem;
-    padding-bottom: 1%;
+    padding-bottom: 1rem;
 }
 .header-button{
     color: #222;
@@ -124,7 +121,7 @@ h2{
     padding-top: 1.5rem;
 }
 .about-us{
-    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 /* nav stuff */
@@ -180,6 +177,9 @@ form div{
 form button{
     color: #c78c06;
     background-color: #222;
+}
+.contact-form input{
+    height: 1.5rem;
 }
 #fullname, #email, #message{
     width: 100%;
