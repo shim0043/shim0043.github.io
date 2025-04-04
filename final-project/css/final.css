@@ -54,27 +54,37 @@ table {
 body{
     font-family: "Open Sans", sans-serif;
     max-width: 1200px;
-    font-size: large;
+    line-height: 1.5rem;
 }
 h1, h2, h3{
     font-weight: bold;
 }
 .wrapper{
     background-color: #ffe6ac;
+    padding: 1rem 0;
 }
 section div, footer, main h2{
     margin: 1rem;
 }
 .about-us h2{
     margin: 1rem 0;
+    padding-top: 0;
 }
 .about-us, footer{
     margin: 0;
     padding: 0 1rem;
 }
+.header-button, .button{
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    margin: 0.75rem;
+}
 .button{
     color: white;
     background-color: #222;
+}
+.header-button{
+    margin-left: 0;
 }
 
 /* header stuff */
@@ -86,10 +96,11 @@ img{
 }
 .welcome-overlay{
     color: white;
-    background-color: #22222295;
+    background-color: #22222299;
     position: absolute;
-    transform: translate(0, -180%);
+    transform: translate(0, -115%);
     padding: 3rem 1rem;
+    padding-bottom: 1%;
 }
 .header-button{
     color: #222;
@@ -101,6 +112,19 @@ img{
     width: 15%;
     position: absolute;
     z-index: 1;
+}
+h1{
+    font-size: 4.5rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-top: 1.5rem;
+}
+.about-us{
+    padding-top: 1rem;
 }
 
 /* nav stuff */
@@ -119,6 +143,7 @@ nav{
 }
 nav li{
     margin: 1rem;
+    margin-bottom: 0;
     padding-bottom: 1rem;
 }
 nav li:nth-child(1){
@@ -141,10 +166,6 @@ nav button{
 .fa-caret-right{
     font-size: 1.5rem;
     padding: 1.5rem;
-}
-.header-button, .button{
-    font-size: 1.25rem;
-    padding-left: 2rem;
 }
 
 /* section 3 stuff */
@@ -185,10 +206,12 @@ th{
 footer{
     color: #c78c06;
     background-color: #222;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    font-size: small;
+    padding-top: 1.25rem;
 }
 footer p{
-    padding: 1rem 0;
+    padding: 0.75rem 0;
 }
 
 
