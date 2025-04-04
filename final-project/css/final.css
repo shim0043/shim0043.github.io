@@ -53,9 +53,8 @@ body{
     font-family: "Open Sans", sans-serif;
     width: 1200px;
 }
-.all-wrapper{
-    width: 760px;
-    margin: auto;
+section, .welcome{
+    margin: 0 60px;
 }
 .wrapper{
     background-color: #ffe6ac;
@@ -103,10 +102,10 @@ nav button{
 }
 .welcome-overlay{
     position: absolute;
-    transform: translate(0, -250%);
+    transform: translate(0, -200%);
     color: white;
     background-color: #22222295;
-    padding: 25px;
+    padding: 50px 10px;
 }
 
 .button{
