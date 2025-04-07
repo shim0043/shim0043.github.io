@@ -54,21 +54,15 @@ table {
 body{
     font-family: "Open Sans", sans-serif;
     max-width: 1200px;
+}
+p{
     line-height: 1.5rem;
 }
 h1, h2, h3{
     font-weight: bold;
 }
-.wrapper{
-    background-color: #ffe6ac;
-    padding: 1rem;
-}
 section div, footer, main h2{
     margin: 1rem;
-}
-.about-us h2{
-    margin: 1rem 0;
-    padding-top: 0;
 }
 .about-us, footer{
     margin: 0;
@@ -82,6 +76,10 @@ section div, footer, main h2{
 .button{
     color: white;
     background-color: #222;
+}
+.fa-caret-right{
+    font-size: 1.5rem;
+    padding: 1.5rem;
 }
 
 /* header stuff */
@@ -120,8 +118,8 @@ h2{
     line-height: 4rem;
     padding-top: 1.5rem;
 }
-.about-us{
-    padding-bottom: 2rem;
+h3{
+    font-size: 2rem;
 }
 
 /* nav stuff */
@@ -160,23 +158,71 @@ nav button{
     font-size: 1.25rem;
     height: 2.5rem;
 }
-.fa-caret-right{
-    font-size: 1.5rem;
-    padding: 1.5rem;
+
+/* section: about us */
+.about-us{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #ffe6ac;
+}
+.about-us h2{
+    margin: 1rem 0;
+    padding-top: 0;
 }
 
-/* section 3 stuff */
+/* section: services */
+.wrapper{
+    background-color: #ffe6ac;
+}
+.our-services h3, .our-services p{
+    padding: 1rem;
+}
+.wrapper button{
+    margin: 1rem;
+    margin-top: 0;
+}
+.our-services h3{
+    margin-top: 1rem;
+}
+
+/* section: our vision */
 .our-vision-button{
     border: 1px solid #c78c06;
 }
 
-/* section 5 stuff */
+/* section: team */
+.our-team{
+    margin: 0;
+}
+.pic-of-john, .pic-of-bob{
+    margin-bottom: 0;
+}
+.john-doe, .bob-rite{
+    margin-top: 0;
+}
+h4{
+    font-weight: bold;
+    border-bottom: 2px solid #c78c06;
+    padding: 0.5rem 0;
+}
+.our-team h3{
+    margin: 0.5rem 0;
+}
+.our-team .wrapper{
+    padding: 1rem;
+}
+
+/* section: contact */
+.contact-us h3{
+    margin: 1rem 0;
+}
 form div{
     margin: 1rem 0;
 }
 form button{
     color: #c78c06;
     background-color: #222;
+    font-size: 1.5rem;
 }
 .contact-form input{
     height: 1.5rem;
@@ -212,6 +258,7 @@ footer{
 }
 footer p{
     padding: 0.75rem 0;
+    font-size: 1rem;
 }
 
 
