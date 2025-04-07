@@ -186,8 +186,24 @@ nav button{
 }
 
 /* section: our vision */
+.our-vision{
+    position: relative;
+}
+.our-vision img{
+    height: 16.5rem;
+    object-fit: cover;
+}
+.vision-overlay{
+    position: absolute;
+    transform: translate(0, -115%);
+    color: white;
+}
 .our-vision-button{
     border: 1px solid #c78c06;
+    background-color: #22222299;
+}
+.our-vision h3{
+    margin-bottom: 1rem;
 }
 
 /* section: team */
