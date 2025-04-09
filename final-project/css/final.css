@@ -92,7 +92,7 @@ img{
     color: white;
     background-color: #22222299;
     position: absolute;
-    transform: translate(0, -115%);
+    transform: translate(0, -110%);
     padding: 3rem 1rem;
     padding-bottom: 1rem;
 }
@@ -107,9 +107,9 @@ img{
     position: absolute;
 }
 h1{
-    font-size: 4.5rem;
-    line-height: 6rem;
-    margin-bottom: 1rem;
+    font-size: 5rem;
+    line-height: 7rem;
+    margin-bottom: 2rem;
 }
 h2{
     font-size: 3rem;
@@ -152,9 +152,11 @@ nav button{
     color: #c78c06;
     background-color: transparent;
     border: 1px solid #c78c06;
-    padding: 0.5rem;
+    padding: 0 0.5rem;
     font-size: 1.25rem;
-    height: 2.5rem;
+    height: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 0.25rem;
 }
 
 /* section: about us */
@@ -278,24 +280,38 @@ footer p{
 
 /* --- desktop version --- */
 @media screen and (min-width: 760px){
-    nav ul, .about-us, .our-services, .our-team, .contact-us, footer p, .vision-overlay{
+    nav ul, .logo, .about-us, .welcome-overlay, .our-services, .our-team, .contact-us, footer p, .vision-overlay{
         padding: calc((100% - 1200px)/2);
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    /* header stuff */
     .welcome-overlay{
-        margin: calc((100% - 1200px)/2);
-        margin-top: 0;
-        margin-bottom: 0;
+        background-clip: content-box;
+        transform: translate(0, -115%);
+    }
+    .welcome h1, .welcome p, .welcome button{
+        margin: 1rem;
+    }
+    .welcome img{
+        height: 35rem;
+        object-fit: cover;
     }
 
     /* nav stuff */
+    .logo{
+        width: 5rem;
+        margin-left: 0;
+    }
     nav{
         padding-top: 0;
     }
     nav ul{
         display: flex;
         flex-direction: row;
+        margin-left: 9rem;
+        justify-content: center;
     }
     nav li{
         width: 100%;
@@ -304,12 +320,13 @@ footer p{
         padding-bottom: 0;
         font-size: larger;
     }
-    .logo{
-        width: 5%;
-    }
     nav li:nth-child(1){
         padding: 1rem 0;
         margin-top: 2rem;
+        width: 75%;
+    }
+    nav li:nth-child(6){
+        margin-top: 2.5rem;
     }
 
     /* section: about us */
