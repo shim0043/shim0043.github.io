@@ -104,6 +104,7 @@ img{
 }
 .logo{
     margin: 1rem;
+    padding-top: 1rem;
     width: 15%;
     position: absolute;
 }
@@ -143,7 +144,7 @@ nav li{
 }
 nav li:nth-child(1){
     background-color: #c78c06;
-    padding-top: 10rem;
+    padding-top: 8rem;
     margin-top: 0;
 }
 nav input{
