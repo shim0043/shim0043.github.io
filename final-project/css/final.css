@@ -384,6 +384,9 @@ footer p{
     .print{
         grid-column: 5 / 7;
     }
+    .our-services button{
+        width: 93.5%;
+    }
 
     /* section: our vision */
     .vision-overlay{
